@@ -1,0 +1,21 @@
+{
+  "name": "tscss-varalyzer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "ts-node ./scripts/convert-js-file.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.5"
+  },
+  "dependencies": {
+    "case": "^1.6.3"
+  }
+}

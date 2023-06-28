@@ -1,0 +1,57 @@
+export const BASE_COLORS = {
+  "dodger-blue": {
+    DEFAULT: "#3B82F6",
+    50: "#EBF2FE",
+    100: "#D7E6FD",
+    200: "#B0CDFB",
+    300: "#89B4FA",
+    400: "#629BF8",
+    500: "#3B82F6",
+    600: "#0B61EE",
+    700: "#084BB8",
+    800: "#063583",
+    900: "#041F4D",
+    950: "#021532",
+  },
+  "mountain-meadow": {
+    DEFAULT: "#10B981",
+    50: "#8CF5D2",
+    100: "#79F3CB",
+    200: "#53F0BC",
+    300: "#2EEDAE",
+    400: "#13DF9B",
+    500: "#10B981",
+    600: "#0C855D",
+    700: "#075239",
+    800: "#031E15",
+    900: "#000000",
+    950: "#000000",
+  },
+  buttercup: {
+    DEFAULT: "#F59E0B",
+    50: "#FCE4BB",
+    100: "#FBDCA8",
+    200: "#FACD81",
+    300: "#F8BD59",
+    400: "#F7AE32",
+    500: "#F59E0B",
+    600: "#C07C08",
+    700: "#8A5906",
+    800: "#543603",
+    900: "#1E1401",
+    950: "#030200",
+  },
+};
+
+export const COLORS = {
+  SUCCESS: BASE_COLORS["mountain-meadow"],
+  PRIMARY: BASE_COLORS["dodger-blue"],
+  WARNING: BASE_COLORS["buttercup"],
+  CHARTS: {
+    LINES: {
+      GREEN_1: BASE_COLORS["mountain-meadow"][500],
+      GREEN_2: BASE_COLORS["mountain-meadow"][200],
+      GREEN_3: BASE_COLORS["mountain-meadow"][700],
+    },
+  },
+};

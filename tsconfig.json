@@ -1,0 +1,14 @@
+{
+  "strict": true,
+  "compilerOptions": {
+    "lib": ["es2020", "DOM"],
+    "declarationMap": true,
+    "declaration": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "module": "nodenext",
+    "resolveJsonModule": true,
+    "allowJs": true
+  },
+  "include": ["src"]
+}
